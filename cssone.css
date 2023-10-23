@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+#main{
+    display: grid;
+    grid-template-columns: 220px 420px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 220px 420px 400px ;
+}
+
+#img{
+    margin-top: 20px;
+}
+
+#profile{
+    margin-top: 255px;
+}
+
+
+
+#active{
+    color: hotpink;
+}
+
+.saw{
+    color: gray;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+h1{
+    font-size: 65px;
+    text-align: center;
+    text-decoration: overline underline 4px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+ul{
+    font-weight: bolder;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    width: 180px;
+    border-right: 1px solid gray;
+}
+
+h2{
+    color: hotpink;
+}
+
